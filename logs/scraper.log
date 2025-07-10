@@ -64,3 +64,14 @@ Please use the Async API instead.
 2025-07-10 16:25:01,445 - root - INFO - stop_collection:194 - Metrics collection stopped
 2025-07-10 16:25:06,459 - root - INFO - stop_monitoring:419 - Alert monitoring stopped
 2025-07-10 16:25:06,459 - app - INFO - shutdown:169 - Application shutdown completed
+2025-07-10 17:17:33,450 - database - INFO - setup_database:132 - Database schema initialized successfully
+2025-07-10 17:17:33,454 - database - INFO - setup_database:132 - Database schema initialized successfully
+2025-07-10 17:17:33,455 - seo_scraper - INFO - __init__:36 - SEO Scraper initialized successfully
+2025-07-10 17:17:33,456 - scheduler - INFO - __init__:87 - Task scheduler initialized
+2025-07-10 17:17:33,458 - scheduler - INFO - start_scheduler:134 - Task scheduler started
+2025-07-10 17:17:33,503 - root - INFO - start_collection:187 - Metrics collection started
+2025-07-10 17:17:33,506 - root - INFO - start_monitoring:412 - Alert monitoring started
+2025-07-10 17:17:33,507 - root - INFO - init_monitoring:743 - Monitoring system initialized and started
+2025-07-10 17:17:33,508 - app - INFO - __init__:44 - SEO Scraper application initialized
+2025-07-10 17:17:33,509 - api - INFO - startup_event:94 - SEO Scraper API started successfully
+2025-07-10 17:18:03,507 - root - WARNING - _create_alert:516 - ALERT [system]: High CPU usage: 85.0%
