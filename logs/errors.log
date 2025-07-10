@@ -1,0 +1,15 @@
+2025-07-10 16:13:51,301 - seo_scraper - ERROR - analyze_comprehensive:81 - Error in comprehensive analysis: BrowserType.launch: Executable doesn't exist at C:\Users\JaeyCopZM\AppData\Local\ms-playwright\winldd-1007\PrintDeps.exe
+╔═══════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.      ║
+║ Please run the following command to download new browser: ║
+║                                                           ║
+║     playwright install winldd                             ║
+║                                                           ║
+║ <3 Playwright Team                                        ║
+╚═══════════════════════════════════════════════════════════╝
+2025-07-10 16:13:51,336 - app - ERROR - analyze_url:61 - Failed to analyze https://example.com
+2025-07-10 16:24:48,271 - seo_scraper - ERROR - analyze_comprehensive:81 - Error in comprehensive analysis: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2025-07-10 16:24:48,523 - app - ERROR - analyze_url:61 - Failed to analyze https://example.com
+2025-07-10 16:24:54,809 - async_scraper - ERROR - _analyze_single_url:210 - Error analyzing https://httpbin.org/html: Connection closed
+2025-07-10 16:24:54,816 - async_scraper - ERROR - _analyze_single_url:210 - Error analyzing https://httpbin.org/json: Connection closed

@@ -1,0 +1,66 @@
+2025-07-10 16:13:20,753 - database - INFO - setup_database:132 - Database schema initialized successfully
+2025-07-10 16:13:21,051 - database - INFO - setup_database:132 - Database schema initialized successfully
+2025-07-10 16:13:22,502 - seo_scraper - INFO - __init__:36 - SEO Scraper initialized successfully
+2025-07-10 16:13:22,504 - scheduler - INFO - __init__:87 - Task scheduler initialized
+2025-07-10 16:13:23,058 - scheduler - INFO - start_scheduler:134 - Task scheduler started
+2025-07-10 16:13:24,575 - root - INFO - start_collection:187 - Metrics collection started
+2025-07-10 16:13:24,868 - root - INFO - start_monitoring:412 - Alert monitoring started
+2025-07-10 16:13:24,871 - root - INFO - init_monitoring:743 - Monitoring system initialized and started
+2025-07-10 16:13:25,837 - app - INFO - __init__:44 - SEO Scraper application initialized
+2025-07-10 16:13:25,838 - app - INFO - analyze_url:48 - Analyzing URL: https://example.com
+2025-07-10 16:13:25,843 - seo_scraper - INFO - analyze_comprehensive:40 - Starting comprehensive analysis for https://example.com
+2025-07-10 16:13:25,846 - content_analyzer - INFO - analyze_content_enhanced:38 - Analyzing content: https://example.com
+2025-07-10 16:13:35,402 - database - INFO - save_content_data:243 - Saved content data for: https://example.com
+2025-07-10 16:13:35,630 - content_analyzer - INFO - analyze_content_enhanced:108 - Analyzed 30 words, 0 internal links, 1 external links
+2025-07-10 16:13:35,883 - content_analyzer - INFO - perform_technical_seo_audit:117 - Performing technical SEO audit: https://example.com
+2025-07-10 16:13:37,478 - database - INFO - save_technical_seo_data:298 - Saved technical SEO data for: https://example.com
+2025-07-10 16:13:37,706 - content_analyzer - INFO - perform_technical_seo_audit:172 - Technical audit completed. Found 1 H1 tags, 0 images without alt text
+2025-07-10 16:13:37,954 - keyword_scraper - INFO - scrape_google_keywords_enhanced:27 - Researching keyword: example keyword
+2025-07-10 16:13:51,301 - seo_scraper - ERROR - analyze_comprehensive:81 - Error in comprehensive analysis: BrowserType.launch: Executable doesn't exist at C:\Users\JaeyCopZM\AppData\Local\ms-playwright\winldd-1007\PrintDeps.exe
+╔═══════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.      ║
+║ Please run the following command to download new browser: ║
+║                                                           ║
+║     playwright install winldd                             ║
+║                                                           ║
+║ <3 Playwright Team                                        ║
+╚═══════════════════════════════════════════════════════════╝
+2025-07-10 16:13:51,336 - app - ERROR - analyze_url:61 - Failed to analyze https://example.com
+2025-07-10 16:13:51,486 - app - INFO - shutdown:163 - Shutting down SEO Scraper application
+2025-07-10 16:13:52,024 - scheduler - INFO - stop_scheduler:148 - Task scheduler stopped
+2025-07-10 16:13:54,877 - root - WARNING - _create_alert:516 - ALERT [system]: High CPU usage: 100.0%
+2025-07-10 16:13:55,096 - root - WARNING - _create_alert:516 - ALERT [system]: High memory usage: 92.7%
+2025-07-10 16:13:57,072 - root - INFO - stop_collection:194 - Metrics collection stopped
+2025-07-10 16:14:02,343 - root - INFO - stop_monitoring:419 - Alert monitoring stopped
+2025-07-10 16:14:02,354 - app - INFO - shutdown:169 - Application shutdown completed
+2025-07-10 16:24:36,319 - database - INFO - setup_database:132 - Database schema initialized successfully
+2025-07-10 16:24:36,390 - database - INFO - setup_database:132 - Database schema initialized successfully
+2025-07-10 16:24:37,702 - seo_scraper - INFO - __init__:36 - SEO Scraper initialized successfully
+2025-07-10 16:24:37,703 - scheduler - INFO - __init__:87 - Task scheduler initialized
+2025-07-10 16:24:38,278 - scheduler - INFO - start_scheduler:134 - Task scheduler started
+2025-07-10 16:24:39,517 - root - INFO - start_collection:187 - Metrics collection started
+2025-07-10 16:24:39,816 - root - INFO - start_monitoring:412 - Alert monitoring started
+2025-07-10 16:24:39,818 - root - INFO - init_monitoring:743 - Monitoring system initialized and started
+2025-07-10 16:24:39,826 - app - INFO - __init__:44 - SEO Scraper application initialized
+2025-07-10 16:24:39,958 - app - INFO - analyze_url:48 - Analyzing URL: https://example.com
+2025-07-10 16:24:39,958 - seo_scraper - INFO - analyze_comprehensive:40 - Starting comprehensive analysis for https://example.com
+2025-07-10 16:24:39,958 - content_analyzer - INFO - analyze_content_enhanced:38 - Analyzing content: https://example.com
+2025-07-10 16:24:39,960 - content_analyzer - INFO - analyze_content_enhanced:43 - Using cached content data
+2025-07-10 16:24:39,961 - content_analyzer - INFO - perform_technical_seo_audit:117 - Performing technical SEO audit: https://example.com
+2025-07-10 16:24:47,023 - database - INFO - save_technical_seo_data:298 - Saved technical SEO data for: https://example.com
+2025-07-10 16:24:47,328 - content_analyzer - INFO - perform_technical_seo_audit:172 - Technical audit completed. Found 1 H1 tags, 0 images without alt text
+2025-07-10 16:24:47,627 - keyword_scraper - INFO - scrape_google_keywords_enhanced:27 - Researching keyword: example keyword
+2025-07-10 16:24:48,271 - seo_scraper - ERROR - analyze_comprehensive:81 - Error in comprehensive analysis: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2025-07-10 16:24:48,523 - app - ERROR - analyze_url:61 - Failed to analyze https://example.com
+2025-07-10 16:24:48,541 - app - INFO - analyze_urls_bulk:71 - Starting bulk analysis of 2 URLs
+2025-07-10 16:24:54,809 - async_scraper - ERROR - _analyze_single_url:210 - Error analyzing https://httpbin.org/html: Connection closed
+2025-07-10 16:24:54,816 - async_scraper - ERROR - _analyze_single_url:210 - Error analyzing https://httpbin.org/json: Connection closed
+2025-07-10 16:24:55,074 - utils - INFO - end_timer:246 - Operation 'bulk_content_analysis' completed in 6.53 seconds
+2025-07-10 16:24:55,082 - async_scraper - INFO - analyze_multiple_urls:171 - Analyzed 0 out of 2 URLs successfully
+2025-07-10 16:24:55,083 - app - INFO - analyze_urls_bulk:83 - Bulk analysis completed: 0/2 URLs processed in 6.54s
+2025-07-10 16:24:55,221 - app - INFO - shutdown:163 - Shutting down SEO Scraper application
+2025-07-10 16:24:56,430 - scheduler - INFO - stop_scheduler:148 - Task scheduler stopped
+2025-07-10 16:25:01,445 - root - INFO - stop_collection:194 - Metrics collection stopped
+2025-07-10 16:25:06,459 - root - INFO - stop_monitoring:419 - Alert monitoring stopped
+2025-07-10 16:25:06,459 - app - INFO - shutdown:169 - Application shutdown completed

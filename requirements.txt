@@ -1,0 +1,64 @@
+# Core web scraping dependencies
+playwright==1.40.0
+beautifulsoup4==4.12.2
+requests==2.31.0
+lxml==4.9.3
+
+# Data processing and analysis
+pandas==2.1.4
+numpy==1.25.2
+
+# Text analysis and NLP
+nltk==3.8.1
+textstat==0.7.3
+
+# Data visualization and reporting
+matplotlib==3.8.2
+seaborn==0.13.0
+wordcloud==1.9.2
+
+# Database
+sqlite3  # Built into Python
+
+# Async and concurrency
+asyncio  # Built into Python
+aiohttp==3.9.1
+
+# Utility libraries
+python-dateutil==2.8.2
+urllib3==2.1.0
+
+# Optional: Advanced features
+# selenium==4.15.2  # Alternative to Playwright
+fake-useragent==0.1.11  # For user agent rotation
+proxy-rotator==0.3.2  # For proxy rotation
+# python-dotenv==1.0.0  # For environment variables
+# schedule==1.2.0  # For task scheduling
+# redis==5.0.1  # For advanced caching
+# psycopg2-binary==2.9.9  # For PostgreSQL support
+# mysql-connector-python==8.2.0  # For MySQL support
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Logging and monitoring
+loguru==0.7.2
+psutil==5.9.6
+
+# Task scheduling
+schedule==1.2.0
+
+# FastAPI and web server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# API integrations (optional)
+# google-api-python-client==2.108.0  # For Google APIs
+# python-twitter==3.5  # For Twitter API
+# facebook-sdk==3.1.0  # For Facebook API
